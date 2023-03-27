@@ -1,0 +1,11 @@
+.navigation__cards {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+@media (max-width: 480px) {
+    .navigation__cards {
+    }
+}

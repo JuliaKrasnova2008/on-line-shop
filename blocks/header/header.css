@@ -1,0 +1,19 @@
+.header {
+    margin: 0 auto;
+    margin-bottom: 37px;
+    padding: 10px;
+    padding-top: 45px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 880px;
+    z-index: 0;
+
+}
+
+@media (max-width: 320px) {
+    .header {
+        padding-top: 28px;
+        padding-bottom: 42px;
+    }
+}

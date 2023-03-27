@@ -1,0 +1,16 @@
+.navigation__link {
+    text-decoration: none;
+    margin: 0;
+    padding: 8px;
+    color: #535a56;
+}
+
+.navigation__link:hover {
+    cursor: pointer;
+    transition: all linear 0.3s;
+    color: black;
+}
+
+.navigation__link:active {
+    color: black;
+}

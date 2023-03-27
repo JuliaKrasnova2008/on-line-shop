@@ -1,0 +1,21 @@
+.navigation__list_basket {
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}
+
+@media (max-width: 768px) {
+    .navigation__list_basket {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .navigation__list_basket {
+        padding-left: 0px;
+    }
+}
+
+.navigation__list_basket:hover {
+    cursor: pointer;
+}

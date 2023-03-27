@@ -1,0 +1,26 @@
+.main-info__link {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.3px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 16px 22px;
+    text-align: center;
+    width: 156px;
+
+    background: #3c9379;
+    border-radius: 8px;
+}
+
+.main-info__link:hover {
+    cursor: pointer;
+    transition: all linear 0.6s;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.main-info__link:active {
+    opacity: 0.6;
+}

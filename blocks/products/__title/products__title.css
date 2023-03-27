@@ -1,0 +1,12 @@
+.products__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

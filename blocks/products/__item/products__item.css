@@ -1,0 +1,17 @@
+.products__item {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 280px;
+    max-height: 548px;
+}
+
+@media (max-width: 320px) {
+    .products__item {
+        align-items: center;
+        max-width: 200px;
+
+    }
+}

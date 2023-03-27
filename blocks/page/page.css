@@ -1,0 +1,54 @@
+.page {
+    font-family: "Inter", Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    /* box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);    -moz-osx-font-smoothing: grayscale; */
+    -webkit-font-smoothing: antialiased;
+
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+
+    text-rendering: optimizeLegibility;
+}
+
+a:hover {
+fill: #a9aebd;
+color: #121212;
+
+} 
+
+/* Стили Тёмной темы */
+.dark-theme {
+    color: #eee;
+    background: #121212;
+    /* filter: brightness(.8) contrast(1.2); */
+}
+.dark-theme .content {
+    filter: brightness(.8) contrast(1.2);
+}
+.dark-theme a {
+    color: #a9aebd;
+}
+.dark-theme a:hover {
+    color: white;
+}
+.dark-theme .social-icon {
+    fill: #a9aebd;
+}
+.dark-theme .social-icon:hover {
+    fill: white;
+}
+.dark-theme h1 {
+    color: #eeeeeeec;
+}
+.dark-theme h2 {
+    color: #eeeeeeec;
+}
+.dark-theme select {
+    background-color: #eeeeeeec;
+    color: #121212;
+}

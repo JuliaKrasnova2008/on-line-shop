@@ -1,0 +1,15 @@
+.sorting {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    width: 40%;
+}
+
+
+@media (max-width: 768px) {
+    .sorting {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+}

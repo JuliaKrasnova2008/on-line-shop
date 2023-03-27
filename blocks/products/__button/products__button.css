@@ -1,0 +1,15 @@
+.products__button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1.5px solid transparent;
+    background: black;
+    color: white;
+}
+
+.products__button:hover {
+    cursor: pointer;
+    transition: all linear 0.4s;
+    background: white;
+    color: black;
+    border: 1px solid black;
+}

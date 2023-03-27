@@ -1,0 +1,9 @@
+.products__subtitle {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.3px;
+}

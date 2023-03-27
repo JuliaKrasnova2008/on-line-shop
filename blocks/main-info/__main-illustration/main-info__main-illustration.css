@@ -1,0 +1,11 @@
+.main-info__main-illustration {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 400px;
+    position: absolute;
+    top: 40px;
+    right: -60px;
+    opacity: 0.3;
+    z-index: -1;
+}

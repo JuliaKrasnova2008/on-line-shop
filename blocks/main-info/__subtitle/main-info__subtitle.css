@@ -1,0 +1,14 @@
+.main-info__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.3px;
+    color: #535a56;
+}
+
+@media (max-width: 320px) {
+    .main-info__subtitle {
+        font-size: 10px;
+        line-height: 143%;
+        }
+}

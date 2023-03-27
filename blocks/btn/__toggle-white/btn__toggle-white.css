@@ -1,0 +1,48 @@
+.btn__toggle-white {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.3px;
+    color: #000;
+    text-decoration: none;
+    padding: 4px 4px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    width: 20%;
+    max-width: 260px;
+    background: #3c937967;
+    border-radius: 8px;
+    border: none;
+    position: fixed;  
+ 
+}
+
+.btn__toggle-white:hover {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.dark-theme .btn__toggle-white {
+    color: #ffffff;
+    background: #214037;
+}
+
+@media (max-width: 992px) {
+    .btn__toggle-white {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn__toggle-white {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn__toggle-white {
+        font-size: 6px;
+    }
+}

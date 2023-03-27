@@ -1,0 +1,19 @@
+.modal__close {
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+#modal__close span {
+    display: block;
+    position: relative;
+}
+
+

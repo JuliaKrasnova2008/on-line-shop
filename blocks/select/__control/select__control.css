@@ -1,0 +1,43 @@
+.select__control {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.3px;
+    color: #535a56;
+    max-width: 300px;
+    padding: 10px 110px 10px 20px;
+    background-color: transparent;
+    background-image: url("../../../images/vector-select.svg");
+    background-repeat: no-repeat;
+    background-position: right 17px center;
+    appearance: none;
+}
+
+.select__control:hover {
+    border: 1px solid #68A2CA;
+  }
+  
+  .select__control:focus {
+    border: 1px solid #68A2CA;
+  }
+  
+  .select__control:active {
+    border: 1px solid #3F5E72;
+  }
+
+  @media (max-width: 768px) {
+    .select__control {
+      font-size: 12px;
+      max-width: 300px;
+      padding: 5px 90px 5px 10px;
+    }
+}
+
+@media (max-width: 320px) {
+  .select__control {
+    font-size: 10px;
+
+  }
+}
+

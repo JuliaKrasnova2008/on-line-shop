@@ -1,0 +1,27 @@
+.main-info__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 130%;
+    letter-spacing: 0.5px;
+    color: #101913;
+}
+
+@media (max-width: 768px) {
+    .main-info__title {
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 110%;
+    }
+}
+
+@media (max-width: 320px) {
+    .main-info__title {
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 90%;
+    }
+}
+
+

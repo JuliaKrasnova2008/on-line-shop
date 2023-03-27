@@ -1,0 +1,10 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}

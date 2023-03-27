@@ -1,0 +1,7 @@
+.modal__elem_rating {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.3px;
+    color: rgba(128, 128, 128, 0.7);
+}
